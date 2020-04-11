@@ -30,23 +30,101 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-       <hr>
-       <div id="timeblock-1" class="row">
-           <div style="margin-left: 20px;">9 AM</div>
-           <textarea class="textareablocks"></textarea>
-           <img scr="./assets/saveicon.png" style="max-height: 60px; min-height: 60px;">
-       </div> 
+      <hr />
+      <div class="row">
+        <h5>9 AM</h5>
+        <textarea id="textblock9" data-hour=09></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5 style="margin-left: 10px;">10 AM</h5>
+        <textarea id="textblock10" data-hour=10></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5 style="margin-left: 10px;">11 AM</h5>
+        <textarea id="textblock11" data-hour=11></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5 style="margin-left: 11px;">12 PM</h5>
+        <textarea id="textblock12" data-hour=12></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5>1 PM</h5>
+        <textarea id="textblock1" data-hour=13></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5>2 PM</h5>
+        <textarea id="textblock2" data-hour=14></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5>3 PM</h5>
+        <textarea id="textblock3" data-hour=15></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5>4 PM</h5>
+        <textarea id="textblock4" data-hour=16></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
+      <hr />
+      <div class="row">
+        <h5>5 PM</h5>
+        <textarea id="textblock5" data-hour=17></textarea>
+        <img
+          src="./assets/saveicon.png"
+          style="max-height: 60px;"
+          class="save-button"
+        />
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script>
-        const m = moment();
-
-        $("#currentDay").text(m.format("dddd[,] MMMM Do"));
-
-
-
-    </script>
+    <script src="./script.js" type="text/javascript"></script>
+    
   </body>
 </html>

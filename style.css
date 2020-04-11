@@ -11,6 +11,9 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  height: 60px;
+  width: 960px;
+  background-color: rgb(235, 81, 81);
 }
 
 .jumbotron {
@@ -21,70 +24,24 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 60px;
   border-top: 1px solid white;;
 }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+hr {
+  margin: 0;
 }
 
-.past {
-  background-color: #d3d3d3;
-  color: white;
+h5 {
+  margin-left: 22px;
 }
 
-.present {
-  background-color: #ff6961;
-  color: white;
+.before {
+  background-color: rgb(113, 218, 72);
 }
 
-.future {
-  background-color: #77dd77;
-  color: white;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
-.container {
-    
-}
-
-/* .textareablocks {
-    height: 50px;
-    width: 800px;
-    background-color: dark grey;
-    margin-left: 8px;
-} */
-
-textarea {
-    height: 60px;
-    width: 800px;
-    background-color:darkgrey;
-    margin-left: 8px;
-} 
+.after {
+  background-color:rgb(219, 209, 209);
 }
